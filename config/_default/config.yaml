@@ -3,8 +3,8 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: Zhen Chen's Homepage # Website name
-baseURL: 'https://zhenchen-jay.github.io/' # Website URL
+title: Academic # Website name
+baseURL: 'https://example.com/' # Website URL
 
 ############################
 ## LANGUAGE
@@ -73,18 +73,3 @@ sitemap:
   _merge: deep
 minify:
   _merge: deep
-
-cascade:
-  # Configure blog posts
-  - _target:
-      path: /publication/**
-    pager: false
-    editable: false
-    reading_time: false
-    commentable: false
-    show_related: false
-    show_breadcrumb: false
-    share: false
-    header:
-      navbar:
-        enable: true
