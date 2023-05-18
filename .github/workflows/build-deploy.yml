@@ -8,7 +8,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: darwin/arm64
+    runs-on: macos-latest
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
