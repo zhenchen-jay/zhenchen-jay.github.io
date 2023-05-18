@@ -48,6 +48,10 @@ url_slides: ''
 url_source: ''
 url_video: ''
 
+links:
+  - name: "ACM Trans. on Graphics (SIGGRAPH 2023)"
+    url: ""
+
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:

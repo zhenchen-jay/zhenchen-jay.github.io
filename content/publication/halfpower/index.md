@@ -48,6 +48,8 @@ url_video: 'https://www.youtube.com/watch?v=u8qtOkJqEO0'
 links:
   - name: "Preprint"
     url: "https://cims.nyu.edu/gcl/papers/2019-VorOffset.pdf"
+  - name: "IEEE TVCG (SGP 2020)"
+    url: ""
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

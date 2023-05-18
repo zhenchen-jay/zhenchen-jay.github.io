@@ -47,8 +47,10 @@ url_slides: ''
 url_source: ''
 url_video: 'https://www.youtube.com/watch?v=8kWz7wFIQlA'
 links:
-- name: "Experimental Results"
-  url: 'https://www.youtube.com/watch?v=-D1GRrBvYOY'
+  - name: "Results"
+    url: 'https://www.youtube.com/watch?v=-D1GRrBvYOY'
+  - name: "ACM Trans. on Graphics 2021"
+    url: ""
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

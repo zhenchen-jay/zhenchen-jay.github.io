@@ -31,7 +31,7 @@ featured: false
 links:
   - name: Fast Forward
     url: https://www.youtube.com/watch?v=9DWawBKigpg
-  - name: Pre-recording Presentation
+  - name: Presentation
     url: https://www.youtube.com/watch?v=8kWz7wFIQlA&t=7s
 url_code: ''
 url_pdf: ''

@@ -51,6 +51,8 @@ url_video: ''
 links:
   - name: Preprint
     url: https://arxiv.org/abs/2210.03158
+  - name: NeurIPS 2022 Workshop SBM
+    url: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

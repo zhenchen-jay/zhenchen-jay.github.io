@@ -29,7 +29,7 @@ featured: false
 #   focal_point: Right
 
 links:
-  - name: Pre-recording Presentation
+  - name: Presentation
     url: https://www.youtube.com/watch?v=u8qtOkJqEO0
 url_code: ''
 url_pdf: ''
