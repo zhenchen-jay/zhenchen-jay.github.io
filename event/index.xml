@@ -5,12 +5,28 @@
     <link>https://zhenchen-jay.github.io/event/</link>
       <atom:link href="https://zhenchen-jay.github.io/event/index.xml" rel="self" type="application/rss+xml" />
     <description>Talks</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 08 Aug 2022 16:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 08 Aug 2023 14:00:00 +0000</lastBuildDate>
     <image>
       <url>https://zhenchen-jay.github.io/media/icon_hue1200c176c4c1c700b5d50f6d9265b68_14553744_512x512_fill_lanczos_center_3.png</url>
       <title>Talks</title>
       <link>https://zhenchen-jay.github.io/event/</link>
     </image>
+    
+    <item>
+      <title>Complex Wrinkle Field Evolution</title>
+      <link>https://zhenchen-jay.github.io/talk/complex-wrinkle-field-evolution/</link>
+      <pubDate>Tue, 08 Aug 2023 14:00:00 +0000</pubDate>
+      <guid>https://zhenchen-jay.github.io/talk/complex-wrinkle-field-evolution/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robust Low-Poly Meshing for General 3D Models</title>
+      <link>https://zhenchen-jay.github.io/talk/robust-low-poly-meshing-for-general-3d-models/</link>
+      <pubDate>Tue, 09 Aug 2022 15:45:00 +0000</pubDate>
+      <guid>https://zhenchen-jay.github.io/talk/robust-low-poly-meshing-for-general-3d-models/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Fine wrinkling on Coarsely Meshed Thin Shells</title>
