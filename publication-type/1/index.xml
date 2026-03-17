@@ -5,12 +5,68 @@
     <link>https://zhenchen-jay.github.io/publication-type/1/</link>
       <atom:link href="https://zhenchen-jay.github.io/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 29 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 10 Mar 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://zhenchen-jay.github.io/media/icon_hue1200c176c4c1c700b5d50f6d9265b68_14553744_512x512_fill_lanczos_center_3.png</url>
       <title>1</title>
       <link>https://zhenchen-jay.github.io/publication-type/1/</link>
     </image>
+    
+    <item>
+      <title>ReWeaver: Towards Simulation-Ready and Topology-Accurate Garment Reconstruction</title>
+      <link>https://zhenchen-jay.github.io/publication/reweaver/</link>
+      <pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://zhenchen-jay.github.io/publication/reweaver/</guid>
+      <description>&lt;!-- 
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mint: Discretely Integrable Moments for Symmetric Frame Fields</title>
+      <link>https://zhenchen-jay.github.io/publication/mint/</link>
+      <pubDate>Sat, 05 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://zhenchen-jay.github.io/publication/mint/</guid>
+      <description>&lt;!-- 
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
     
     <item>
       <title>Neural Volumetric Mesh Generator</title>

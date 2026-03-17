@@ -274,12 +274,12 @@
 
   
 
-<meta name="description" content="We propose a robust re-meshing approach that can automatically generate visual-preserving low-poly meshes for any high-poly models found in the wild. Our method can be seamlessly integrated into current mesh-based 3D asset production pipelines. Compared to state-of-the-art approaches and widely used software, our method demonstrates its superiority in terms of the element count, visual preservation, geometry and topology guarantees of the generated low-polys." />
+<meta name="description" content="High-quality 3D garment reconstruction plays a crucial role in mitigating the sim-to-real gap in applications such as digital avatars, virtual try-on and robotic manipulation. However, existing garment reconstruction methods typically rely on unstructured representations, such as 3D Gaussian Splats, struggling to provide accurate reconstructions of garment topology and sewing structures. As a result, the reconstructed outputs are often unsuitable for high-fidelity physical simulation. We propose ReWeaver, a novel framework for topology-accurate 3D garment and sewing pattern reconstruction from sparse multi-view RGB images. Given as few as four input views, ReWeaver predicts seams and panels as well as their connectivities in both the 2D UV space and the 3D space. The predicted seams and panels align precisely with the multi-view images, yielding structured 2D–3D garment representations suitable for 3D perception, high-fidelity physical simulation, and robotic manipulation. To enable effective training, we construct a large-scale dataset GCD-TS, comprising multi-view RGB images, 3D garment geometries, textured human body meshes and annotated sewing patterns. The dataset contains over 100,000 synthetic samples cover1ing a wide range of complex geometries and topologies. Extensive experiments show that ReWeaver consistently outperforms existing methods in terms of topology accuracy, geometry alignment and seam-panel consistency." />
 
 
 
-<link rel="alternate" hreflang="en-us" href="https://zhenchen-jay.github.io/talk/robust-low-poly-meshing-for-general-3d-models/" />
-<link rel="canonical" href="https://zhenchen-jay.github.io/talk/robust-low-poly-meshing-for-general-3d-models/" />
+<link rel="alternate" hreflang="en-us" href="https://zhenchen-jay.github.io/publication/reweaver/" />
+<link rel="canonical" href="https://zhenchen-jay.github.io/publication/reweaver/" />
 
 
 
@@ -302,28 +302,27 @@
 
 
   
-  
 
 
 
 
 
 
-<meta property="twitter:card" content="summary" />
-<meta property="twitter:image" content="https://zhenchen-jay.github.io/media/icon_hue1200c176c4c1c700b5d50f6d9265b68_14553744_512x512_fill_lanczos_center_3.png" />
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://zhenchen-jay.github.io/publication/reweaver/featured.png" />
 <meta property="og:site_name" content="Zhen Chen&#39;s Homepage" />
-<meta property="og:url" content="https://zhenchen-jay.github.io/talk/robust-low-poly-meshing-for-general-3d-models/" />
-<meta property="og:title" content="Robust Low-Poly Meshing for General 3D Models | Zhen Chen&#39;s Homepage" />
-<meta property="og:description" content="We propose a robust re-meshing approach that can automatically generate visual-preserving low-poly meshes for any high-poly models found in the wild. Our method can be seamlessly integrated into current mesh-based 3D asset production pipelines. Compared to state-of-the-art approaches and widely used software, our method demonstrates its superiority in terms of the element count, visual preservation, geometry and topology guarantees of the generated low-polys." /><meta property="og:image" content="https://zhenchen-jay.github.io/media/icon_hue1200c176c4c1c700b5d50f6d9265b68_14553744_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+<meta property="og:url" content="https://zhenchen-jay.github.io/publication/reweaver/" />
+<meta property="og:title" content="ReWeaver: Towards Simulation-Ready and Topology-Accurate Garment Reconstruction | Zhen Chen&#39;s Homepage" />
+<meta property="og:description" content="High-quality 3D garment reconstruction plays a crucial role in mitigating the sim-to-real gap in applications such as digital avatars, virtual try-on and robotic manipulation. However, existing garment reconstruction methods typically rely on unstructured representations, such as 3D Gaussian Splats, struggling to provide accurate reconstructions of garment topology and sewing structures. As a result, the reconstructed outputs are often unsuitable for high-fidelity physical simulation. We propose ReWeaver, a novel framework for topology-accurate 3D garment and sewing pattern reconstruction from sparse multi-view RGB images. Given as few as four input views, ReWeaver predicts seams and panels as well as their connectivities in both the 2D UV space and the 3D space. The predicted seams and panels align precisely with the multi-view images, yielding structured 2D–3D garment representations suitable for 3D perception, high-fidelity physical simulation, and robotic manipulation. To enable effective training, we construct a large-scale dataset GCD-TS, comprising multi-view RGB images, 3D garment geometries, textured human body meshes and annotated sewing patterns. The dataset contains over 100,000 synthetic samples cover1ing a wide range of complex geometries and topologies. Extensive experiments show that ReWeaver consistently outperforms existing methods in terms of topology accuracy, geometry alignment and seam-panel consistency." /><meta property="og:image" content="https://zhenchen-jay.github.io/publication/reweaver/featured.png" /><meta property="og:locale" content="en-us" />
 
   
     <meta
       property="article:published_time"
-      content="2022-08-09T15:45:00&#43;00:00"
+      content="2026-03-10T00:00:00&#43;00:00"
     />
   
   
-    <meta property="article:modified_time" content="2022-08-09T15:45:00&#43;00:00">
+    <meta property="article:modified_time" content="2026-03-10T00:00:00&#43;00:00">
   
 
 
@@ -331,9 +330,12 @@
 
 
 
-
-  
     
+
+
+
+
+
 
 
 
@@ -341,50 +343,56 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Event",
+  "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://zhenchen-jay.github.io/talk/robust-low-poly-meshing-for-general-3d-models/"
+    "@id": "https://zhenchen-jay.github.io/publication/reweaver/"
   },
-  "name": "Robust Low-Poly Meshing for General 3D Models",
+  "headline": "ReWeaver: Towards Simulation-Ready and Topology-Accurate Garment Reconstruction",
   
-  "location": {
-    "@type": "Place",
-    "name": "Los Angeles Convention Center"
-  },
+  "image": [
+    "https://zhenchen-jay.github.io/publication/reweaver/featured.png"
+  ],
   
+  "datePublished": "2026-03-10T00:00:00Z",
+  "dateModified": "2026-03-10T00:00:00Z",
   
-  "startDate": "2022-08-09T15:45:00Z",
-  
-  "endDate": "2023-08-09T17:15:00Z",
-  
-  
-  "performer": {
+  "author": {
     "@type": "Person",
-    "name": "Zhen Chen"
+    "name": "Ming Li"
   },
   
-  "description": "We propose a robust re-meshing approach that can automatically generate visual-preserving low-poly meshes for any high-poly models found in the wild. Our method can be seamlessly integrated into current mesh-based 3D asset production pipelines. Compared to state-of-the-art approaches and widely used software, our method demonstrates its superiority in terms of the element count, visual preservation, geometry and topology guarantees of the generated low-polys."
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zhen Chen's Homepage",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://zhenchen-jay.github.io/media/icon_hue1200c176c4c1c700b5d50f6d9265b68_14553744_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "High-quality 3D garment reconstruction plays a crucial role in mitigating the sim-to-real gap in applications such as digital avatars, virtual try-on and robotic manipulation. However, existing garment reconstruction methods typically rely on unstructured representations, such as 3D Gaussian Splats, struggling to provide accurate reconstructions of garment topology and sewing structures. As a result, the reconstructed outputs are often unsuitable for high-fidelity physical simulation. We propose ReWeaver, a novel framework for topology-accurate 3D garment and sewing pattern reconstruction from sparse multi-view RGB images. Given as few as four input views, ReWeaver predicts seams and panels as well as their connectivities in both the 2D UV space and the 3D space. The predicted seams and panels align precisely with the multi-view images, yielding structured 2D–3D garment representations suitable for 3D perception, high-fidelity physical simulation, and robotic manipulation. To enable effective training, we construct a large-scale dataset GCD-TS, comprising multi-view RGB images, 3D garment geometries, textured human body meshes and annotated sewing patterns. The dataset contains over 100,000 synthetic samples cover1ing a wide range of complex geometries and topologies. Extensive experiments show that ReWeaver consistently outperforms existing methods in terms of topology accuracy, geometry alignment and seam-panel consistency."
 }
 </script>
 
   
 
-
-
-
-  
-  
-  
-
-  
-  
-
   
 
 
+
+
   
-  <title>Robust Low-Poly Meshing for General 3D Models | Zhen Chen&#39;s Homepage</title>
+  
+  
+
+  
+  
+
+  
+
+
+  
+  <title>ReWeaver: Towards Simulation-Ready and Topology-Accurate Garment Reconstruction | Zhen Chen&#39;s Homepage</title>
 
   
   
@@ -404,7 +412,7 @@
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="8950fb31ac14865927850c19de3658b4" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="6448f8b5dfffb91fd42ecad80d0ab9a9" >
 
   
   
@@ -704,34 +712,50 @@
     
     
 
-    <div class="pub">
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-  
-  
-  
-<div class="article-container pt-3">
-  <h1>Robust Low-Poly Meshing for General 3D Models</h1>
-
-  
-
-  
     
+
+
+
+
+
+
+
+
+<div class="pub">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<div class="article-container pt-3">
+  <h1>ReWeaver: Towards Simulation-Ready and Topology-Accurate Garment Reconstruction</h1>
+
+  
+
+  
 
 
 <div class="article-metadata">
@@ -744,15 +768,26 @@
     
 
   <span >
+      Ming Li</span>, <span >
+      Hui Shan</span>, <span >
+      Kai Zheng</span>, <span >
+      Chentao Shen</span>, <span >
+      Siyu Liu</span>, <span >
+      Yanwei Fu</span>, <span >
       Zhen Chen</span>, <span >
-      Zherong Pan</span>, <span >
-      Kui Wu</span>, <span >
-      Etienne Vouga</span>, <span >
-      Xifeng Gao</span>
+      Xiangru Huang</span>
   </div>
   
   
 
+  
+  <span class="article-date">
+    
+    
+      
+    
+    March, 2026
+  </span>
   
 
   
@@ -769,7 +804,7 @@
 
 </div>
 
-    
+  
 
 
 
@@ -786,33 +821,64 @@
 
 
   
-
-
-
-
-
-
-
-
-
-  
     
   
 
 
 
+<a class="btn btn-outline-primary btn-page-header" href="/uploads/ReWeaver.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header js-cite-modal"
+        data-filename="/publication/reweaver/cite.bib">
+  Cite
+</a>
 
 
 
 
 
 
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary btn-page-header" href="/" >
+    CVPR 2026</a>
 
 
 </div>
 
 
-  
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 405px;">
+  <div style="position: relative">
+    <img src="/publication/reweaver/featured_hud2c208b7bbd8c51e55bbb14648f02514_1294039_720x2500_fit_q75_h2_lanczos_3.webp" width="720" height="405" alt="" class="featured-image">
+    
+  </div>
 </div>
 
 
@@ -820,33 +886,20 @@
   <div class="article-container">
 
     
-      <h3>Abstract</h3>
-      <p class="pub-abstract">We propose a robust re-meshing approach that can automatically generate visual-preserving low-poly meshes for any high-poly models found in the wild. Our method can be seamlessly integrated into current mesh-based 3D asset production pipelines. Compared to state-of-the-art approaches and widely used software, our method demonstrates its superiority in terms of the element count, visual preservation, geometry and topology guarantees of the generated low-polys.</p>
+    <h3>Abstract</h3>
+    <p class="pub-abstract">High-quality 3D garment reconstruction plays a crucial role in mitigating the sim-to-real gap in applications such as digital avatars, virtual try-on and robotic manipulation. However, existing garment reconstruction methods typically rely on unstructured representations, such as 3D Gaussian Splats, struggling to provide accurate reconstructions of garment topology and sewing structures. As a result, the reconstructed outputs are often unsuitable for high-fidelity physical simulation. We propose ReWeaver, a novel framework for topology-accurate 3D garment and sewing pattern reconstruction from sparse multi-view RGB images. Given as few as four input views, ReWeaver predicts seams and panels as well as their connectivities in both the 2D UV space and the 3D space. The predicted seams and panels align precisely with the multi-view images, yielding structured 2D–3D garment representations suitable for 3D perception, high-fidelity physical simulation, and robotic manipulation. To enable effective training, we construct a large-scale dataset GCD-TS, comprising multi-view RGB images, 3D garment geometries, textured human body meshes and annotated sewing patterns. The dataset contains over 100,000 synthetic samples cover1ing a wide range of complex geometries and topologies. Extensive experiments show that ReWeaver consistently outperforms existing methods in terms of topology accuracy, geometry alignment and seam-panel consistency.</p>
     
 
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Date</div>
-          <div class="col-12 col-md-9">
-            Aug 9, 2022 3:45 PM &mdash; Aug 9, 2023 5:15 PM
-          </div>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-    </div>
-    <div class="d-md-none space-below"></div>
-
+    
     
     <div class="row">
       <div class="col-md-1"></div>
       <div class="col-md-10">
         <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Event</div>
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
           <div class="col-12 col-md-9">
-            <a href="https://s2023.siggraph.org/" target="_blank" rel="noopener">
-            SIGGRAPH 2023
+            <a href="/publication/#1">
+              Conference paper
             </a>
           </div>
         </div>
@@ -861,9 +914,8 @@
       <div class="col-md-1"></div>
       <div class="col-md-10">
         <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Location</div>
-          <div class="col-12 col-md-9">Los Angeles Convention Center</div>
-          
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2026</div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -873,9 +925,27 @@
 
     <div class="space-below"></div>
 
-    <div class="article-style">
-      
-    </div>
+    <div class="article-style"><!-- 
+
+
+<div class="alert alert-note">
+  <div>
+    Click the <em>Cite</em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  </div>
+</div>
+
+
+
+
+<div class="alert alert-note">
+  <div>
+    Create your slides in Markdown - click the <em>Slides</em> button to check out the example.
+  </div>
+</div>
+
+
+Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). -->
+</div>
 
     
 
@@ -883,116 +953,10 @@
 
 
 
-
-
-<div class="share-box">
-  <ul class="share">
-    
-      
-      
-      
-        
-      
-      
-      
-      
-      
-      
-      
-      <li>
-        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fzhenchen-jay.github.io%2Ftalk%2Frobust-low-poly-meshing-for-general-3d-models%2F&amp;text=Robust&#43;Low-Poly&#43;Meshing&#43;for&#43;General&#43;3D&#43;Models" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
-          <i class="fab fa-twitter"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      
-      
-      
-      
-      <li>
-        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fzhenchen-jay.github.io%2Ftalk%2Frobust-low-poly-meshing-for-general-3d-models%2F&amp;t=Robust&#43;Low-Poly&#43;Meshing&#43;for&#43;General&#43;3D&#43;Models" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
-          <i class="fab fa-facebook"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      
-      
-      
-      
-        
-      
-      <li>
-        <a href="mailto:?subject=Robust%20Low-Poly%20Meshing%20for%20General%203D%20Models&amp;body=https%3A%2F%2Fzhenchen-jay.github.io%2Ftalk%2Frobust-low-poly-meshing-for-general-3d-models%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
-          <i class="fas fa-envelope"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      
-      
-      
-      
-      <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fzhenchen-jay.github.io%2Ftalk%2Frobust-low-poly-meshing-for-general-3d-models%2F&amp;title=Robust&#43;Low-Poly&#43;Meshing&#43;for&#43;General&#43;3D&#43;Models" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
-          <i class="fab fa-linkedin-in"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      
-      
-      
-      
-      <li>
-        <a href="whatsapp://send?text=Robust&#43;Low-Poly&#43;Meshing&#43;for&#43;General&#43;3D&#43;Models%20https%3A%2F%2Fzhenchen-jay.github.io%2Ftalk%2Frobust-low-poly-meshing-for-general-3d-models%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
-          <i class="fab fa-whatsapp"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      
-      
-      
-      
-      <li>
-        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fzhenchen-jay.github.io%2Ftalk%2Frobust-low-poly-meshing-for-general-3d-models%2F&amp;title=Robust&#43;Low-Poly&#43;Meshing&#43;for&#43;General&#43;3D&#43;Models" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
-          <i class="fab fa-weibo"></i>
-        </a>
-      </li>
-    
-  </ul>
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/source-themes/">Source Themes</a>
+  
 </div>
 
 
@@ -1005,7 +969,27 @@
 
 
 
+
+
   
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
   
     
 
